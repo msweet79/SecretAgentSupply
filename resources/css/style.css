@@ -1,0 +1,19 @@
+div {
+  display: block;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.flex-container {
+}
+
+.main-title {
+  background-image: url("../images/moto.jpeg");
+}
+.new-arrival {
+  background-color: black;
+  color: white;
+}
