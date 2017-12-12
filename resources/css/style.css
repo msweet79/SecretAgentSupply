@@ -1,19 +1,57 @@
+/*REMEMBER TO REMOVE BORDERS!!!/*
+/*Change name of flex-container*/
+
+/*Universal format*/
+
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  font-family: helvetica;
+  line-height: 1.4em;
+}
+
 div {
   display: block;
 }
 
-header {
+.flex-container {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 3px solid lightblue;
+}
+
+/*Header formating*/
+.company-name {
   background-color: black;
   color: white;
+  border: 3px solid orange;
 }
 
-.flex-container {
+.company-name .flex-container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
 }
 
-.main-title {
+/* Main section of page format*/
+.main-section {
   background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+  border: 3px solid red;
 }
+
 .new-arrival {
   background-color: black;
   color: white;
+  border: 3px solid pink;
+  width: 20em;
+  height: auto;
 }
+
+/*Navigation section formating/*
