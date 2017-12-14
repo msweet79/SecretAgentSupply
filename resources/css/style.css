@@ -17,7 +17,7 @@ div {
   display: block;
 }
 
-.flex-container {
+.container {
   max-width: 960px;
   margin: 0 auto;
   border: 3px solid lightblue;
@@ -38,7 +38,7 @@ h1 {
   border: 3px solid orange;
 }
 
-.company-name .flex-container {
+.company-name .container {
   display: flex;
   align-items: center;
   padding: 12px 0 12px 0.5em;
