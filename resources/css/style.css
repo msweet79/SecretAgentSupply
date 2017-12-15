@@ -1,0 +1,36 @@
+/*Universal format*/
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1, h4 {
+    font-weight: bold;
+}
+
+/*Company logo*/
+.company {
+    background-color: black;
+    color: white;
+}
+
+.company .container {
+    display: flex;
+    align-items: center;
+    padding: 12px 0 12px 0.5em;
+}
+
+.company img {
+    height: 1.5em;
+    padding-right: 15px;
+}
