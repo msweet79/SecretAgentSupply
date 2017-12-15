@@ -34,3 +34,27 @@ h1, h4 {
     height: 1.5em;
     padding-right: 15px;
 }
+
+/* Main banner format*/
+.main-banner {
+    background: url(../images/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+}
+
+.headline {
+    background-color: black;
+    color: white;
+    width: 20em;
+    padding: 2em 3em;
+    position: relative;
+    top: 9em;
+}
+
+.headline h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 0.25em 0;
+}
