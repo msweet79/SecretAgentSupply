@@ -1,12 +1,14 @@
 /*Universal format*/
+
 html {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 body {
-    font-family: Helvetica, sans-serif;
-    line-height: 1.4em;
-    margin: 0;
+  font-family: Helvetica;
+  font-weight: bold;
+  line-height: 2rem;
+  margin: 0;
 }
 
 .container {
@@ -14,25 +16,22 @@ body {
     margin: 0 auto;
 }
 
-h1, h4 {
-    font-weight: bold;
-}
-
 /*Company logo*/
 .company {
     background-color: black;
     color: white;
+    font-size: 1rem;
 }
 
 .company .container {
     display: flex;
     align-items: center;
-    padding: 12px 0 12px 0.5em;
+    padding: 0.66rem 0;
 }
 
 .company img {
-    height: 1.5em;
-    padding-right: 15px;
+    height: 1.5rem;
+    padding: 0.66rem 1rem 0.66rem 0.5rem;
 }
 
 /* Main banner format*/
@@ -41,33 +40,46 @@ h1, h4 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 25em;
+    height: 25rem;
 }
 
 .headline {
     background-color: black;
     color: white;
-    width: 20em;
-    padding: 2em 3em;
+    width: 20rem;
+    height: auto;
     position: relative;
-    top: 9em;
+    top: 9rem;
+    padding: 2rem 3rem;
+}
+
+.headline h4 {
+    font-size: 1rem;
 }
 
 .headline h1 {
-    font-size: 2em;
-    line-height: 1.2em;
-    margin: 0.25em 0;
+  font-size: 2rem;
+  /* line-height: 2rem; */
+  margin: .25rem 0;
 }
 
 /* Navigation format */
 nav {
-    background-color: firebrick;
-    color: white;
+  color: white;
+  background-color: firebrick;
+  padding: .75rem 0;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.75em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+/*Products formating */
+
+/*Business info formating*/
+
+/*footer format*/
+
+/*Media formats*/
